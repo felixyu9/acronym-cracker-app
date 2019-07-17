@@ -1,0 +1,97 @@
+
+ html,
+ body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 14px;
+   margin: 0;
+   min-height: 180px;
+   padding: 0;
+   width: 384px;
+ }
+
+ h1 {
+   font-family: "Menlo", monospace;
+   font-size: 22px;
+   font-weight: 400;
+   margin: 0;
+   color: #2f5876;
+ }
+
+ a:link,
+ a:visited {
+   color: #000000;
+   outline: 0;
+   text-decoration: none;
+ }
+
+ img {
+   width: 30px;
+ }
+
+ .modal-header {
+   align-items: center;
+   border-bottom: 0.5px solid #dadada;
+ }
+
+ .text-box-container {
+   display: flex;  
+   padding: 10px 22px;
+ }
+
+ .text-box input{
+    border-radius: 4px;
+    font-size: 1.1rem;
+    padding: 0.2rem 0.5rem;
+ }
+
+ .button {
+    background-image: linear-gradient(#44dd88, #2eb489);
+    -moz-background-image: linear-gradient(#44dd88, #2eb489);
+    -webkit-background-image: linear-gradient(#44dd88, #2eb489);
+    background-color: #44dd88;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: "Helvetica";
+    font-weight: 100;
+	font-size: 1.3rem;
+	padding: 5px;
+    text-decoration: none;
+ }
+
+.button:hover{
+    background-image: linear-gradient(#61eb9f, #44dd88);
+    background-color: #61eb9f;
+}
+
+ .modal-icons {
+   border-top: 0.5px solid #dadada;
+   height: 50px;
+   width: 100%;
+ }
+
+ .logo {
+   padding: 16px;
+ }
+
+ .logo-icon {
+   vertical-align: text-bottom;
+   margin-right: 12px;
+ }
+
+ .version {
+   color: #444;
+   font-size: 18px;
+ }
+
+ .flex-container {
+   justify-content: space-between;
+   padding: 5px 20px;
+ }
+
+ .defination-content {
+  line-height: 20px;
+ }
+
